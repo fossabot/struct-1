@@ -1,0 +1,48 @@
+{
+  "name": "struct-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/struc-js/struc.git"
+  },
+  "license": "MIT",
+  "author": "Alex G. Wolff (@alexgwolff)",
+  "bugs": {
+    "url": "https://github.com/struc-js/struc/issues"
+  },
+  "homepage": "https://github.com/struc-js/struc#readme",
+  "scripts": {
+    "watch": "rollup src/main.js -c rollup.config.dev.js --watch",
+    "build": "rollup src/main.js -c rollup.config.release.js",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@babel/core": "^7.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-private-methods": "^7.4.4",
+    "@babel/preset-env": "^7.5.4",
+    "@types/jest": "^24.0.13",
+    "acorn": "^6.1.1",
+    "acorn-class-fields": "0.3.1",
+    "acorn-private-class-elements": "^0.1.1",
+    "acorn-private-methods": "0.3.0",
+    "acorn-static-class-features": "0.2.0",
+    "babel-eslint": "^11.0.0-beta.0",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-sonarjs": "^0.4.0",
+    "jest": "^24.8.0",
+    "rollup": "^1.16.7",
+    "rollup-plugin-eslint": "7.0.0",
+    "rollup-plugin-html": "^0.2.1"
+  }
+}

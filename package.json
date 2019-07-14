@@ -1,0 +1,5 @@
+{
+  "name": "struct",
+  "private": true,
+  "workspaces": ["struct-compiler", "struct-core", "struct-extensions"]
+}

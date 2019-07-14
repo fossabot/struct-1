@@ -1,0 +1,15 @@
+{
+  "name": "struc-extensions",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/struc-js/struc.git"
+  },
+  "license": "MIT",
+  "author": "Alex G. Wolff (@alexgwolff)",
+  "bugs": {
+    "url": "https://github.com/struc-js/struc/issues"
+  },
+  "homepage": "https://github.com/struc-js/struc/struc-extensions-decora#readme"
+}
