@@ -4,5 +4,13 @@
     ],
     "cSpell.ignoreWords": [
         "alexgwolff"
-    ]
+    ],
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "npm.packageManager": "yarn",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "search.useGlobalIgnoreFiles": true,
+    "eslint.enable": true
 }
