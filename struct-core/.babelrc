@@ -3,9 +3,7 @@
     [
       "@babel/preset-env",
       {
-        "targets": {
-          "chrome": 74
-        }
+        "targets": "last 2 Chrome versions"
       }
     ]
   ],
